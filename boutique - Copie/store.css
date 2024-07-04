@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style pour le titre de la section des produits */
+.product-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/* Style des cartes de produit */
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+/* Effet de survol pour les cartes de produit */
+.card:hover {
+    transform: scale(1.05);
+}
+/* Style pour les images des cartes de produit */
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+/* Style pour le titre des cartes de produit */
+.card-title {
+    font-size: 1.5rem;
+}
+/* Style pour le texte des cartes de produit */
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+/* Style pour le bouton */
+.btn-dark {
+    background-color: #333;
+    border: none;
+}
+/* Effet de survol pour le bouton */
+.btn-dark:hover {
+    background-color: #555;
+}
